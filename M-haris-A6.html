@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 <script
+      src="https://kit.fontawesome.com/c450fc6905.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 6</title>
+
+    <style>
+      :root {
+        --primary-color: coral;
+        --secondary-color: chocolate;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #navbar {
+        background-color: chocolate;
+      }
+
+      #navbar ul li {
+        color: #333;
+        display: inline-block;
+        padding: 1rem;
+        position: relative;
+      }
+      #navbar ul li a {
+        text-decoration: none;
+        color: white;
+        margin-left: 20%;
+        padding-left: 250%;
+      }
+
+      /*hide nasted ul by default*/
+
+      
+
+      #top-bar,
+      ul,
+      li,
+      a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav-Bar -->
+    <div id="navbar">
+      <ul>
+        <li><a href="#">personal</a></li>
+        <li><a href="#">business</a></li>
+      </ul>
+    </div>
+
+     <div id="top-bar">
+      <img src="./ufone-4g-logo.png" alt="logo">
+		<ul>
+			<li><a href="#">product</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Complaints</a></li>
+		    <input type="text" class="field" name="s" placeholder="Enter your search">
+
+
+	 
+          <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="http://youtube.com"><i class="fab fa-youtube"></i></a>
+       
+		</ul>
+
+
+	 </div>
+      <!-- show-case section -->
+      <div id="show-case">
+        <img src="./top-banner.jpg" alt="show-case" style="min-width: 100%" />
+      </div>
+    </div>
+  </body>
+</html>
